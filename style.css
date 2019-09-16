@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    display: grid;
+    margin: 0;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    list-style-type: none;
+    background-color: grey;
+}
+
+.menu_item {
+    margin: auto;
+    padding: 10px;
+}
+
+.menu_item:hover {
+    color: red;
+    background-color: black;
+    cursor: pointer;
+}
+
+.menu_item--active {
+    color: white;
+    background-color: black;
+    margin: auto;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #333333;
+    color: white;
+    padding: 30px;
+}
+
+.inloggen {
+    grid-column: 2/2;
+    text-align: center;
+}
+
+.inloggen_title--big {
+    color: #a6a6a6;
+}
+
+.inloggen_title--small {
+    color: #d9d9d9;
+}
+
+.inloggen_input {
+    padding: 5px;
+}
+
+.inloggen_button {
+    color: black;
+    background-color: red;
+    padding: 10px;
+    border-radius: 12px;
+    border: none;
+}
+
+.inloggen_button:hover {
+    cursor: pointer;
+    box-shadow: 0 3px black;
+}
+
+.inloggen_button:active {
+    box-shadow: 0 1px black;
+}

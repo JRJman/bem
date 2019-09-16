@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BEM website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul class="menu">
+            <li class="menu_item">Home</li>
+            <li class="menu_item">About us</li>
+            <li class="menu_item--active">Inloggen</li>
+            <li class="menu_item">Winkelwagen</li>
+        </ul>
+    </nav>
+    <div id="grid">
+        <div class="inloggen">
+            <h2 class="inloggen_title--big">Inloggen</h2>
+            <h4 class="inloggen_title--small">Gebruikersnaam</h4>
+            <input type="text" name="gebruikersnaam" class="inloggen_input">
+            <h4 class="inloggen_title--small">Wachtwoord</h4>
+            <input type="text" name="wachtwoord" class="inloggen_input"><br><br>
+            <input type="button" value="Log In" class="inloggen_button">
+        </div>
+    </div>
+</body>
+</html>
